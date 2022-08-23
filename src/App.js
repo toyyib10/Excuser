@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
 
-function App() {
+const App = () => {
+  const myStyle = {
+    height: "500px",
+    backgroundColor : "rgb(16, 16, 65)",
+    borderRadius : "10px"
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <section className="w-100 mt-5">
+      <center>
+        <section style={myStyle} className="w-75 text-white">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis pariatur perspiciatis eligendi temporibus sunt voluptatibus labore amet, non quas animi natus error maiores saepe voluptatem nobis! Natus libero velit delectus.
+        </section>
+      </center>
+    </section>
+  )
 }
 
 export default App;
+

@@ -1,0 +1,10 @@
+.btn{
+  background-color: transparent;
+  border: 1px solid blue;
+  color: white;
+}
+.btn:hover{
+  background-color: white;
+  border: none;
+  color: rgb(41, 41, 224);
+}
